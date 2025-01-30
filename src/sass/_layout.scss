@@ -1,0 +1,54 @@
+/* ===========================
+   ToC 
+
+   1.0 Phone
+   1.1 Footer
+   1.2 Layout
+   =========================== */
+
+/* ===================
+   1.0 Phones 0 - 549px 
+   =================== */
+
+:root {
+  // Colors
+  --color-dark-grayish-blue: 217deg, 19%, 35%;
+  --color-dark-blue: 214deg, 17%, 51%;
+  --color-grayish-blue: 212deg, 23%, 69%;
+  --color-light-grayish-blue: 210deg, 46%, 95%;
+  --color-white: 0deg, 0%, 100%;
+}
+
+/* =============
+   1.1 Footer 
+   ============= */
+
+.attribution {
+  font-size: 1.4rem;
+  text-align: center;
+
+  width: max-content;
+  color: hsl(var(--color-dark-blue));
+  position: absolute;
+  bottom: -3.5rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.attribution a {
+  color: hsl(207deg, 49%, 35%);
+}
+
+/* =============
+   1.2 Layout 
+   ============= */
+
+.app-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  @media (min-width: 520px) {
+  }
+}
