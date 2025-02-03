@@ -1,12 +1,13 @@
+import AppLayout from "./components/AppLayout";
 import Attribution from "./components/Attribution";
 import "./sass/main.scss";
 
 function App() {
   return (
-    <div>
+    <AppLayout>
       <div className="main-title">Advice Generator</div>
       <Attribution />
-    </div>
+    </AppLayout>
   );
 }
 
