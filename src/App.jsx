@@ -5,7 +5,6 @@ import "./sass/main.scss";
 function App() {
   return (
     <AppLayout>
-      <div className="main-title">Advice Generator</div>
       <Attribution />
     </AppLayout>
   );

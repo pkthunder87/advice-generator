@@ -23,7 +23,24 @@
    1.0 Phones & Tablets 0 - 900px 
    ============================== */
 
-.main-title {
-  color: var(--color-neon-green);
-  font-size: 5rem;
+.advice {
+  padding-block-start: 4.2rem;
+  padding-block-end: 6.6rem;
+  padding-inline: 2rem;
+  margin-block-start: -5rem;
+
+  &__number {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding-block-end: 2.2rem;
+  }
+
+  &__text {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-block-end: 2.1rem;
+
+    color: var(--color-light-cyan);
+  }
 }
