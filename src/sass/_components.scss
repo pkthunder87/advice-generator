@@ -28,19 +28,33 @@
   padding-block-end: 6.6rem;
   padding-inline: 2rem;
   margin-block-start: -5rem;
+  max-width: 500px;
 
   &__number {
     font-size: 1.1rem;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.31em;
     padding-block-end: 2.2rem;
   }
 
   &__text {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     text-align: center;
     padding-block-end: 2.1rem;
 
     color: var(--color-light-cyan);
+  }
+
+  &__dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.5rem;
+    height: 6.5rem;
+    position: absolute;
+    bottom: -3.2rem;
+
+    border-radius: 100px;
+    background-color: var(--color-neon-green);
   }
 }
