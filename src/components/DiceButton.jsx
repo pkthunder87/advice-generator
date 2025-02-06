@@ -1,6 +1,10 @@
-function DiceButton() {
+function DiceButton({ getAdvice }) {
+  async function handleClick() {
+    await getAdvice();
+  }
+
   return (
-    <div className="advice__dice">
+    <div onClick={handleClick} className="advice__dice">
       <img
         className="advice__dice--img"
         src="./assets/images/icon-dice.svg"
