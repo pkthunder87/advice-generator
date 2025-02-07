@@ -11,7 +11,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Links
 
-- Live Site URL: [Github Pages](AddLiveSiteURL)
+- Live Site URL: [Github Pages](https://pk-advice-gene.netlify.app/)
 
 ### Built with
 
