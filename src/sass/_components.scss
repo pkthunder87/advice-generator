@@ -29,6 +29,11 @@
   padding-inline: 2rem;
   margin-block-start: -5rem;
   max-width: 500px;
+  box-shadow: 15px 15px 20px 25px rgba(0, 0, 0, 0.07);
+
+  @media (min-width: 520px) {
+    padding-inline: 4rem;
+  }
 
   &__number {
     font-size: 1.1rem;
@@ -57,6 +62,7 @@
 
     border-radius: 100px;
     background-color: var(--color-neon-green);
+    box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.07);
 
     &:hover {
       box-shadow: 0 0 20px 10px hsla(150, 100%, 66%, 0.3);
